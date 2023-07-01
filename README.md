@@ -2,6 +2,8 @@
 
 AWS Admin Toolkit v1 is a powerful collection of tools designed to simplify administrative tasks and streamline management of AWS resources. This toolkit provides a comprehensive set of features for AWS administrators, allowing them to efficiently manage and monitor their AWS environment. Some of the key features of AWS Admin Toolkit v1 include:
 
+_NOTE that I am still updating this toolkit_
+
 **Resource Management**: The toolkit offers capabilities to easily create, update, and delete AWS resources such as EC2 instances, S3 buckets, IAM users, and more, providing administrators with full control over their infrastructure.
 
 **Monitoring and Logging**: Administrators can leverage the toolkit to monitor the health and performance of their AWS services, set up alarms, and collect logs for analysis. This enables proactive monitoring and troubleshooting of issues.
