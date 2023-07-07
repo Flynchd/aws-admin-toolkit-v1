@@ -21,3 +21,14 @@ _NOTE that I am still updating this toolkit_
 
 
 In summary, AWS Admin Toolkit v1 empowers administrators with a wide range of features to effectively manage and administer their AWS environment, ensuring operational efficiency, security, and cost optimization.
+
+
+**Change Log**
+All notable changes to this project will be documented in this file.
+
+[Released] - 2023-07-07
+Updated folder structure and group task
+
+Added
+- MainMenu.ps1
+- Added scripts for each task category
