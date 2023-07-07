@@ -1,31 +1,24 @@
-# CreateCloudWatchDashboard.ps1
+# ConfigureCloudWatchAlarms.ps1
 
-# Script to create a custom CloudWatch dashboard with the desired metrics
+# Script to set up CloudWatch alarms for monitoring specific metrics and triggering notifications
 
-# Accept user input for the dashboard name
-$dashboardName = Read-Host "Enter the dashboard name"
+# Prompt the user for the metric name
+do {
+    $metricName = Read-Host "Enter the metric name"
+} while ([string]::IsNullOrWhiteSpace($metricName))
 
-# Accept user input for the metric names (comma-separated)
-$metricNames = Read-Host "Enter the metric names (comma-separated)"
+# Prompt the user for the alarm threshold
+do {
+    $threshold = Read-Host "Enter the alarm threshold value"
+} while (-not [double]::TryParse($threshold, [ref]$null))
 
-# Convert the metric names to an array
-$metricArray = $metricNames -split ","
+# Prompt the user for the alarm action
+do {
+    $alarmAction = Read-Host "Enter the alarm action"
+} while ([string]::IsNullOrWhiteSpace($alarmAction))
 
-# AWS CLI command to create a CloudWatch dashboard
-$awsCliCommand = "aws cloudwatch put-dashboard --dashboard-name $dashboardName --dashboard-body '{""widgets"":["
-$widgetCounter = 1
-
-# Loop through each metric name and add it as a widget in the dashboard
-foreach ($metric in $metricArray) {
-    $awsCliCommand += "{""type"":""metric"",""x"":0,""y"":$widgetCounter,""width"":12,""height"":6,""properties"":{""metrics"":[[""AWS/EC2"",""$metric"",""InstanceId"",""i-1234567890abcdef0""]],""view"":""timeSeries"",""stacked"":false,""region"":""us-east-1"",""title"":""$metric""}},"
-    $widgetCounter += 6
-}
-
-# Remove the trailing comma from the last widget
-$awsCliCommand = $awsCliCommand.TrimEnd(",")
-
-# Close the dashboard-body JSON structure
-$awsCliCommand += "]}'"
+# AWS CLI command to create a CloudWatch alarm
+$awsCliCommand = "aws cloudwatch put-metric-alarm --alarm-name MyAlarm --alarm-description 'Alarm for $metricName' --metric-name $metricName --namespace AWS/EC2 --statistic Average --period 300 --threshold $threshold --comparison-operator GreaterThanThreshold --evaluation-periods 1 --alarm-actions $alarmAction"
 
 # Execute the AWS CLI command
 Invoke-Expression $awsCliCommand
