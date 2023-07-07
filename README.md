@@ -63,37 +63,70 @@ We welcome contributions! Follow these steps to contribute:
 4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
 
-### Resource Management
-Description: This section covers tasks related to managing AWS resources, such as creating EC2 instances, managing S3 buckets, and creating IAM users.
+## Contents
 
-<!-- Content for Resource Management -->
+### Resource Management
+<details>
+  <summary><strong>Description:</strong> This section covers tasks related to managing AWS resources, such as creating EC2 instances, managing S3 buckets, and creating IAM users.</summary>
+  
+  <p>This section provides scripts and tools for efficient resource management on AWS. It includes automation tasks to provision and manage EC2 instances, tools to manage S3 buckets, and scripts to create and manage IAM users and permissions.</p>
+  
+  <!-- Content for Resource Management -->
+  
+</details>
 
 ### Monitoring and Logging
-Description: This section focuses on setting up monitoring and logging solutions using AWS CloudWatch, enabling logs for EC2 instances, configuring alarms, and creating custom dashboards.
-
-<!-- Content for Monitoring and Logging -->
+<details>
+  <summary><strong>Description:</strong> This section focuses on setting up monitoring and logging solutions using AWS CloudWatch, enabling logs for EC2 instances, configuring alarms, and creating custom dashboards.</summary>
+  
+  <p>In this section, you'll find scripts and guidelines to implement effective monitoring and logging practices on AWS. It covers tasks such as enabling CloudWatch Logs for EC2 instances, configuring alarms for critical metrics, and creating custom dashboards for visualizing important metrics.</p>
+  
+  <!-- Content for Monitoring and Logging -->
+  
+</details>
 
 ### Security and Compliance
-Description: This section addresses security and compliance tasks, including configuring AWS Config Rules, enabling AWS CloudTrail, and applying IAM best practices.
-
-<!-- Content for Security and Compliance -->
+<details>
+  <summary><strong>Description:</strong> This section addresses security and compliance tasks, including configuring AWS Config Rules, enabling AWS CloudTrail, and applying IAM best practices.</summary>
+  
+  <p>This section focuses on security and compliance best practices for your AWS environment. It provides scripts and resources for configuring AWS Config Rules to enforce security policies, enabling AWS CloudTrail for audit logs, and implementing IAM best practices for secure access management.</p>
+  
+  <!-- Content for Security and Compliance -->
+  
+</details>
 
 ### Automation and Scripting
-Description: This section covers automation and scripting tasks, such as automating EC2 instance start/stop, creating EBS snapshots, and executing custom AWS CLI commands.
-
-<!-- Content for Automation and Scripting -->
+<details>
+  <summary><strong>Description:</strong> This section covers automation and scripting tasks, such as automating EC2 instance start/stop, creating EBS snapshots, and executing custom AWS CLI commands.</summary>
+  
+  <p>In this section, you'll find automation scripts and tools to streamline common administrative tasks on AWS. It includes scripts for automating EC2 instance start/stop schedules, creating EBS snapshots for backups, and executing custom AWS CLI commands for advanced automation and scripting requirements.</p>
+  
+  <!-- Content for Automation and Scripting -->
+  
+</details>
 
 ### Cost Optimization
-Description: This section focuses on cost optimization tasks, including terminating idle EC2 instances, analyzing EC2 instance utilization, and automating Reserved Instance purchases.
-
-<!-- Content for Cost Optimization -->
+<details>
+  <summary><strong>Description:</strong> This section focuses on cost optimization tasks, including terminating idle EC2 instances, analyzing EC2 instance utilization, and automating Reserved Instance purchases.</summary>
+  
+  <p>This section provides cost optimization techniques and tools to optimize your AWS infrastructure expenses. It includes scripts for identifying and terminating idle EC2 instances, analyzing EC2 instance utilization for rightsizing, and automating the purchase of Reserved Instances for cost savings.</p>
+  
+  <!-- Content for Cost Optimization -->
+  
+</details>
 
 ### Integration and Extensibility
-Description: This section explores integration and extensibility tasks, such as integrating with AWS Lambda, AWS Step Functions, and custom API integrations.
+<details>
+  <summary><strong>Description:</strong> This section explores integration and extensibility tasks, such as integrating with AWS Lambda, AWS Step Functions, and custom API integrations.</summary>
+  
+  <p>In this section, you'll find resources and examples for integrating your admin toolkit with various AWS services. It covers topics such as integrating with AWS Lambda for serverless automation, leveraging AWS Step Functions for workflow orchestration, and creating custom API integrations to extend the functionality of your admin toolkit.</p>
+  
+  <!-- Content for Integration and Extensibility -->
+  
+</details>
 
-<!-- Content for Integration and Extensibility -->
 
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/YourUsername/YourRepository/blob/master/LICENSE).
+This project is licensed under the [MIT License](https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE).
