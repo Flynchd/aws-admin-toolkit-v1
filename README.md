@@ -1,8 +1,8 @@
-<h1 align="center">Project Name</h1>
+<h1 align="center">AWS Admin Toolkit v1.0</h1>
 
 <p align="center">
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/stargazers">
-    <img src="https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Stars">
+    <img src="https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=for-the-badge" alt="Stars">
   </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/network/members">
     <img src="https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Forks">
