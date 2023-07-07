@@ -1,23 +1,23 @@
 <h1 align="center">AWS Admin Toolkit v1.0</h1>
 
 <p align="center">
-  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/stargazers">
-    <img src="https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=for-the-badge" alt="Stars">
-  </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/network/members">
-    <img src="https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Forks">
+    <img src="https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=social" alt="Forks">
   </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/pulls">
-    <img src="https://img.shields.io/github/issues-pr/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Pull Requests">
+    <img src="https://img.shields.io/github/issues-pr/Flynchd/aws-admin-toolkit-v1.svg?style=social" alt="Pull Requests">
   </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/issues">
-    <img src="https://img.shields.io/github/issues/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Open Issues">
+    <img src="https://img.shields.io/github/issues/Flynchd/aws-admin-toolkit-v1.svg?style=social" alt="Open Issues">
   </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Contributors">
   </a>
   <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="License">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/stargazers">
+    <img src="https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Stars">
   </a>
 </p>
 
