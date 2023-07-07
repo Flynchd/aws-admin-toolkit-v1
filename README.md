@@ -1,36 +1,66 @@
-**AWS Admin Toolkit v1**
+<h1 align="center">Project Name</h1>
 
-AWS Admin Toolkit v1 is a powerful collection of tools designed to simplify administrative tasks and streamline management of AWS resources. This toolkit provides a comprehensive set of features for AWS administrators, allowing them to efficiently manage and monitor their AWS environment. Some of the key features of AWS Admin Toolkit v1 include:
+<p align="center">
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/stargazers">
+    <img src="https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Stars">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/network/members">
+    <img src="https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Forks">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Pull Requests">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/issues">
+    <img src="https://img.shields.io/github/issues/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Open Issues">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="Contributors">
+  </a>
+  <a href="https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/Flynchd/aws-admin-toolkit-v1.svg?style=plastic" alt="License">
+  </a>
+</p>
 
-_NOTE that I am still updating this toolkit_
+<p align="center">
+  Project Description: A brief description of your project.
+</p>
 
-1. Run the MainMenu.ps1 and select options to run scripts
-2. Press "Q" for quit menu
+## Table of Contents
 
-**Resource Management**: The toolkit offers capabilities to easily create, update, and delete AWS resources such as EC2 instances, S3 buckets, IAM users, and more, providing administrators with full control over their infrastructure.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Monitoring and Logging**: Administrators can leverage the toolkit to monitor the health and performance of their AWS services, set up alarms, and collect logs for analysis. This enables proactive monitoring and troubleshooting of issues.
+## Features
 
-**Security and Compliance**: The toolkit offers features to manage security and compliance aspects, including IAM user and role management, access control policies, and encryption of data at rest and in transit.
+- Feature 1: Description of feature 1.
+- Feature 2: Description of feature 2.
+- Feature 3: Description of feature 3.
 
-**Automation and Scripting**: With the toolkit's scripting capabilities, administrators can automate routine tasks and orchestrate complex workflows using scripting languages like PowerShell or Python, increasing operational efficiency.
+## Installation
 
-**Cost Optimization**: The toolkit provides tools for monitoring and optimizing AWS costs, allowing administrators to analyze resource usage, identify cost anomalies, and implement cost-saving measures.
+1. Clone the repository: `git clone https://github.com/YourUsername/YourRepository.git`
+2. Navigate to the project directory: `cd YourRepository`
+3. Install dependencies: `npm install`
 
-**Integration and Extensibility**: AWS Admin Toolkit v1 seamlessly integrates with other AWS services, allowing administrators to leverage additional functionality, such as AWS CloudFormation for infrastructure provisioning or AWS CloudWatch for enhanced monitoring.
+## Usage
 
+1. Step 1: Describe how to use your project.
+2. Step 2: Describe the next step.
+3. Step 3: Describe another step.
 
-In summary, AWS Admin Toolkit v1 empowers administrators with a wide range of features to effectively manage and administer their AWS environment, ensuring operational efficiency, security, and cost optimization.
+## Contributing
 
+We welcome contributions! Follow these steps to contribute:
 
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/new-feature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Submit a pull request.
 
+## License
 
-# Change Log
-All notable changes to this project will be documented in this file.
-
-# [Released] - 2023-07-07
-Updated folder structure and group task
-
-### Added
-- MainMenu.ps1
-- Added scripts for each task category
+This project is licensed under the [MIT License](https://github.com/YourUsername/YourRepository/blob/master/LICENSE).
