@@ -11,6 +11,11 @@
   The AWS Admin Toolkit is a powerful collection of scripts and tools designed to streamline and enhance the administration of your AWS infrastructure. With a wide range of features and recommended scripts, it enables you to efficiently manage resources, set up effective monitoring and logging solutions, ensure security and compliance, automate common administrative tasks, optimize costs, and seamlessly integrate with other AWS services for enhanced functionality. Elevate your AWS management to new heights with the AWS Admin Toolkit and unlock the true potential of your AWS environment.
 </p>
 
+## Change Log
+**v1.0.0** (July, 2023)
+- Initial release with 6 main features: Resource Management, Monitoring and Logging, Security and Compliance, Automation and Scripting, Cost Optimization, Integration and Extensibility.
+
+
 ## Table of Contents
 
 1. [Resource Management](#resource-management)
