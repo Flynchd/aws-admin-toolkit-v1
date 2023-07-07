@@ -27,11 +27,13 @@
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Resource Management](#resource-management)
+- [Monitoring and Logging](#monitoring-and-logging)
+- [Security and Compliance](#security-and-compliance)
+- [Automation and Scripting](#automation-and-scripting)
+- [Cost Optimization](#cost-optimization)
+- [Integration and Extensibility](#integration-and-extensibility)
+
 
 ## Features
 
@@ -60,6 +62,37 @@ We welcome contributions! Follow these steps to contribute:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
+
+### Resource Management
+Description: This section covers tasks related to managing AWS resources, such as creating EC2 instances, managing S3 buckets, and creating IAM users.
+
+<!-- Content for Resource Management -->
+
+### Monitoring and Logging
+Description: This section focuses on setting up monitoring and logging solutions using AWS CloudWatch, enabling logs for EC2 instances, configuring alarms, and creating custom dashboards.
+
+<!-- Content for Monitoring and Logging -->
+
+### Security and Compliance
+Description: This section addresses security and compliance tasks, including configuring AWS Config Rules, enabling AWS CloudTrail, and applying IAM best practices.
+
+<!-- Content for Security and Compliance -->
+
+### Automation and Scripting
+Description: This section covers automation and scripting tasks, such as automating EC2 instance start/stop, creating EBS snapshots, and executing custom AWS CLI commands.
+
+<!-- Content for Automation and Scripting -->
+
+### Cost Optimization
+Description: This section focuses on cost optimization tasks, including terminating idle EC2 instances, analyzing EC2 instance utilization, and automating Reserved Instance purchases.
+
+<!-- Content for Cost Optimization -->
+
+### Integration and Extensibility
+Description: This section explores integration and extensibility tasks, such as integrating with AWS Lambda, AWS Step Functions, and custom API integrations.
+
+<!-- Content for Integration and Extensibility -->
+
 
 ## License
 
