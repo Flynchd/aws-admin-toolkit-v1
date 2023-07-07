@@ -35,23 +35,30 @@
 - [Integration and Extensibility](#integration-and-extensibility)
 
 
+
 ## Features
 
-- Feature 1: Description of feature 1.
-- Feature 2: Description of feature 2.
-- Feature 3: Description of feature 3.
+- **Resource Management**: Manage AWS resources efficiently with scripts for provisioning and managing EC2 instances, S3 buckets, and IAM users.
+
+- **Monitoring and Logging**: Set up effective monitoring and logging solutions using AWS CloudWatch, including enabling logs for EC2 instances, configuring alarms, and creating custom dashboards.
+
+- **Security and Compliance**: Ensure security and compliance in your AWS environment with tools for configuring AWS Config Rules, enabling AWS CloudTrail, and implementing IAM best practices.
+
+- **Automation and Scripting**: Automate common administrative tasks with scripts for automating EC2 instance start/stop schedules, creating EBS snapshots, and executing custom AWS CLI commands.
+
+- **Cost Optimization**: Optimize AWS infrastructure expenses with tools for identifying and terminating idle EC2 instances, analyzing instance utilization, and automating Reserved Instance purchases for cost savings.
+
+- **Integration and Extensibility**: Integrate the admin toolkit with AWS Lambda, AWS Step Functions, and other services to extend functionality, automate workflows, and create custom API integrations.
+
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/YourUsername/YourRepository.git`
-2. Navigate to the project directory: `cd YourRepository`
-3. Install dependencies: `npm install`
-
 ## Usage
 
-1. Step 1: Describe how to use your project.
-2. Step 2: Describe the next step.
-3. Step 3: Describe another step.
+1. Clone the Admin Toolkit repository:
+   ```bash
+   git clone https://github.com/Flynchd/aws-admin-toolkit-v1.git
+2. Use the MainMenu.ps1 to select task
 
 ## Contributing
 
