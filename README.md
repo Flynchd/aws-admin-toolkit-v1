@@ -1,4 +1,4 @@
-# AWS Admin Toolkit v1.0
+<h1 align="center">AWS Admin Toolkit v1.0</h1>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE)
 [![Forks](https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=social)](https://github.com/Flynchd/aws-admin-toolkit-v1/network/members)
