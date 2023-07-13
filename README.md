@@ -1,12 +1,13 @@
 <h1 align="center">AWS Admin Toolkit v1.0</h1>
 
+<p align="center">
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE)
 [![Forks](https://img.shields.io/github/forks/Flynchd/aws-admin-toolkit-v1.svg?style=social)](https://github.com/Flynchd/aws-admin-toolkit-v1/network/members)
 [![Pull Requests](https://img.shields.io/github/issues-pr/Flynchd/aws-admin-toolkit-v1.svg?style=social)](https://github.com/Flynchd/aws-admin-toolkit-v1/pulls)
 [![Open Issues](https://img.shields.io/github/issues/Flynchd/aws-admin-toolkit-v1.svg?style=social)](https://github.com/Flynchd/aws-admin-toolkit-v1/issues)
 [![Contributors](https://img.shields.io/github/contributors/Flynchd/aws-admin-toolkit-v1.svg?style=plastic)](https://github.com/Flynchd/aws-admin-toolkit-v1/graphs/contributors)
 [![Stars](https://img.shields.io/github/stars/Flynchd/aws-admin-toolkit-v1.svg?style=plastic)](https://github.com/Flynchd/aws-admin-toolkit-v1/stargazers)
-
+</p>
 <p align="justify">
   The AWS Admin Toolkit is a powerful collection of scripts and tools designed to streamline and enhance the administration of your AWS infrastructure. With a wide range of features and recommended scripts, it enables you to efficiently manage resources, set up effective monitoring and logging solutions, ensure security and compliance, automate common administrative tasks, optimize costs, and seamlessly integrate with other AWS services for enhanced functionality. Elevate your AWS management to new heights with the AWS Admin Toolkit and unlock the true potential of your AWS environment.
 </p>
